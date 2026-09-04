@@ -1,0 +1,7 @@
+source_id,system,central_ingestion,alert_coverage
+LOGSRC-01,Meridian Core Banking,true,true
+LOGSRC-02,Meridian Digital Banking,true,true
+LOGSRC-03,Meridian Customer CRM,false,false
+LOGSRC-04,ServiceNow Privacy Case Management,false,false
+LOGSRC-05,Entra ID,true,true
+SUMMARY,critical_sources,12,10_ingested,10_covered

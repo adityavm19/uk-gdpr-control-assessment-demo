@@ -1,0 +1,5 @@
+case_id,type,received,access_completed,critical_app_access,exception
+JML-041,Leaver,2026-04-05,2026-04-05,MT-APP-011,None
+JML-052,Mover,2026-05-12,2026-05-13,MT-APP-018,None
+JML-063,Leaver,2026-06-21,2026-06-21,MT-APP-019,None
+SUMMARY,sample,20,,,0

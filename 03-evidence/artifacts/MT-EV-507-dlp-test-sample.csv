@@ -1,0 +1,5 @@
+incident_id,policy,severity,triaged_within_sla,outcome
+DLP-216,Restricted customer data to personal webmail,High,true,Blocked
+DLP-221,Identity document upload to unsanctioned storage,High,true,Blocked
+DLP-229,Customer export to removable media,Medium,true,User coached
+SUMMARY,sampled_incidents,8,,all_triaged

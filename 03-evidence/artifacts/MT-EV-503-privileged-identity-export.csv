@@ -1,0 +1,9 @@
+account_id,role,path,mfa_enforced,status
+ADM-001,Global Reader,Entra,true,Active
+ADM-002,Security Administrator,Entra,true,Active
+ADM-003,Legacy VPN Support,LegacyVPN,false,Active
+ADM-004,Legacy VPN BreakGlass,LegacyVPN,false,Active
+ADM-005,Vendor Support Admin,LegacyVPN,false,Active
+ADM-006,Privileged Role Admin,Entra,true,Active
+SUMMARY,total_privileged,42,,,
+SUMMARY,legacy_path_without_mfa,3,,,

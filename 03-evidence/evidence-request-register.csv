@@ -1,0 +1,15 @@
+request_id,request_area,requested_from,date_requested,due_date,status,control_or_process_ref,evidence_ids
+GDPR-PBC-001,Security/privacy risk review,CISO / DPO,2026-08-03,2026-08-10,Received,GDPR-CTL-001,MT-EV-501;MT-EV-502
+GDPR-PBC-002,Privileged identity and conditional access,IAM Operations Manager,2026-08-03,2026-08-10,Received,GDPR-CTL-002,MT-EV-503;MT-EV-504
+GDPR-PBC-003,JML sample,IAM Operations Manager,2026-08-03,2026-08-10,Received,GDPR-CTL-003,MT-EV-505
+GDPR-PBC-004,Encryption settings,Cloud Platform Manager,2026-08-03,2026-08-10,Received,GDPR-CTL-004,MT-EV-506
+GDPR-PBC-005,DLP policy/incidents,Security Engineering Lead,2026-08-03,2026-08-10,Received,GDPR-CTL-005,MT-EV-507
+GDPR-PBC-006,Vulnerability ageing,Vulnerability Operations Lead,2026-08-03,2026-08-10,Received,GDPR-CTL-006,MT-EV-508
+GDPR-PBC-007,Critical log-source coverage,SIEM Engineering Lead,2026-08-03,2026-08-10,Received,GDPR-CTL-007,MT-EV-509;MT-EV-510
+GDPR-PBC-008,Resilience and recovery design,Cloud Platform Manager,2026-08-03,2026-08-10,Received,GDPR-CTL-008,MT-EV-511
+GDPR-PBC-009,Backup/restore evidence,Backup & Recovery Lead,2026-08-03,2026-08-10,Received,GDPR-CTL-009,MT-EV-512;MT-EV-513
+GDPR-PBC-010,Control assurance schedule,Cyber GRC Lead,2026-08-03,2026-08-10,Received,GDPR-CTL-010,MT-EV-514
+GDPR-PBC-011,Breach process/tabletop records,DPO / Incident Response Lead,2026-08-03,2026-08-10,Received,GDPR-CTL-011,MT-EV-515;MT-EV-516
+GDPR-PBC-012,Processor due diligence/contracts,Supplier Risk Manager / DPO,2026-08-03,2026-08-10,Received,GDPR-CTL-012,MT-EV-517;MT-EV-518
+GDPR-PBC-013,Rights case sample,Privacy Operations Manager,2026-08-03,2026-08-10,Received,Articles 15/17,MT-EV-519;MT-EV-520
+GDPR-PBC-014,Restricted transfer evidence,DPO / Privacy Legal,2026-08-03,2026-08-10,Received,Chapter V / Article 46,MT-EV-521;MT-EV-522

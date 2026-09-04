@@ -1,0 +1,6 @@
+backup_set,application,protected,last_successful_backup,annual_restore_test_evidence
+BKP-001,MT-APP-011,true,2026-07-31,Missing
+BKP-002,MT-APP-018,true,2026-07-31,2026-05-20 Passed
+BKP-003,MT-APP-019,true,2026-07-31,2026-06-11 Passed
+BKP-004,MT-APP-001,true,2026-07-31,2026-04-18 Passed
+SUMMARY,selected_sample,4,all_successful,3_of_4_evidenced

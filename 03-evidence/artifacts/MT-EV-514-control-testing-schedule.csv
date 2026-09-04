@@ -1,0 +1,7 @@
+assurance_activity,status,issues_logged
+IAM control review,Complete,1
+Vulnerability SLA review,Complete,1
+SIEM coverage review,Complete,1
+Backup restore review,Complete,1
+DLP effectiveness test,Complete,0
+Processor security review,Complete,1

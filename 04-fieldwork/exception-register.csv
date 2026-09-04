@@ -1,0 +1,6 @@
+exception_id,test_id,workpaper_id,control_id,evidence_refs,condition,underlying_issue_id,finding_id
+MT-EXC-501,MT-TST-502,MT-WP-502,GDPR-CTL-002,MT-EV-503;MT-EV-504,3 of 42 privileged identities could authenticate through a legacy remote-access path without the approved MFA enforcement.,MT-IAM-001,GDPR-FND-001
+MT-EXC-502,MT-TST-507,MT-WP-507,GDPR-CTL-007,MT-EV-509;MT-EV-510,2 of 12 critical personal-data/security sources were not centrally ingested or covered by Sentinel alerts.,MT-LOG-001,GDPR-FND-002
+MT-EXC-503,MT-TST-509,MT-WP-509,GDPR-CTL-009,MT-EV-512;MT-EV-513,"Core-banking backup protection was active, but completed annual restore-test evidence was unavailable.",MT-RES-001,GDPR-FND-003
+MT-EXC-504,MT-TST-512,MT-WP-512,GDPR-CTL-012,MT-EV-517;MT-EV-518,Northbridge processor assurance was overdue and a prior penetration-test action lacked closure evidence.,MT-TPR-001,GDPR-FND-004
+MT-EXC-505,MT-TST-506,MT-WP-506,GDPR-CTL-006,MT-EV-508,"10 of 27 Critical/High vulnerabilities exceeded approved remediation windows, including 4 Critical items.",MT-VUL-001,GDPR-FND-005

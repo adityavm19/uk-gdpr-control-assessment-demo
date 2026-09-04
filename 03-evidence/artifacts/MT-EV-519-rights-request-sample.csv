@@ -1,0 +1,8 @@
+case_id,right,received,clarification_pause_days,response_date,outcome
+DSR-601,Access,2026-04-03,0,2026-04-24,Completed
+DSR-608,Erasure,2026-04-11,0,2026-04-29,Partially fulfilled - retention exception documented
+DSR-617,Access,2026-05-07,6,2026-06-04,Completed after clarification
+DSR-630,Erasure,2026-05-23,0,2026-06-11,Completed
+DSR-651,Access,2026-06-12,0,2026-07-01,Completed
+DSR-668,Erasure,2026-06-28,0,2026-07-19,Completed
+SUMMARY,population_q2,74,,12_sampled,12 assessed as timely under workflow

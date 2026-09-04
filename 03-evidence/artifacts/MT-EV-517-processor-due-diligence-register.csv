@@ -1,0 +1,4 @@
+processor_id,processor,last_security_review,contract_article28_security_clause,current_assurance,open_action
+MT-TP-001,Microsoft,2026-05-18,Yes,Current,None
+MT-TP-003,ServiceNow,2026-04-22,Yes,Current,None
+MT-TP-010,Northbridge CRM Services Ltd,2025-01-12,Yes,Overdue,2025 penetration-test action lacks closure evidence

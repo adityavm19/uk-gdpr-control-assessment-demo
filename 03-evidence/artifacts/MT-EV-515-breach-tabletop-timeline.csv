@@ -1,0 +1,10 @@
+time,event,owner
+2026-08-12 09:05,SOC confirms unauthorised access to customer accounts,Incident Response Lead
+2026-08-12 09:22,Incident commander declares SEV-1,Incident Response Lead
+2026-08-12 09:42,DPO/privacy incident lead engaged,DPO
+2026-08-12 11:15,Initial affected-data analysis available,Privacy Operations
+2026-08-12 15:30,Reportability decision: likely risk to rights and freedoms; notify ICO,DPO
+2026-08-13 11:00,Draft ICO notification completed,Privacy Operations
+2026-08-13 11:20,Executive/legal review completed,General Counsel / DPO
+2026-08-13 11:35,Hypothetical notification submission point,DPO
+SUMMARY,Elapsed awareness-to-submission,26h30m,DPO

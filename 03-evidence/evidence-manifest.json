@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.0",
+  "organisation": "Meridian Trust Financial Services (fictional)",
+  "assessment": "UK GDPR Security Control Assessment",
+  "generated_at": "2026-09-01T20:30:00+01:00",
+  "hash_algorithm": "SHA-256",
+  "evidence_count": 22,
+  "entries": [
+    {
+      "evidence_id": "MT-EV-501",
+      "file_name": "artifacts/MT-EV-501-security-risk-review.md",
+      "sha256": "28471247bdda8e2eb3e5bec039abffb93be9906aee86cf24526293b105c71dad",
+      "evidence_type": "Governance record",
+      "source_owner_role": "CISO",
+      "source_system": "Manual governance record",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-001;MT-TST-501",
+      "size_bytes": 309
+    },
+    {
+      "evidence_id": "MT-EV-502",
+      "file_name": "artifacts/MT-EV-502-privacy-security-governance-review.md",
+      "sha256": "eb963740720748c10881a4df2fd1fd975bbfabbbb0b0892d16094d3d3280e619",
+      "evidence_type": "Meeting record",
+      "source_owner_role": "DPO",
+      "source_system": "Manual governance record",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-001;MT-TST-501",
+      "size_bytes": 243
+    },
+    {
+      "evidence_id": "MT-EV-503",
+      "file_name": "artifacts/MT-EV-503-privileged-identity-export.csv",
+      "sha256": "85014e1169704cfc945d764da9950d00214bf59cc42cc6ebaf4a5a017faebed5",
+      "evidence_type": "System export",
+      "source_owner_role": "IAM Operations Manager",
+      "source_system": "MT-APP-001 Microsoft Entra ID",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-002;MT-TST-502",
+      "size_bytes": 401
+    },
+    {
+      "evidence_id": "MT-EV-504",
+      "file_name": "artifacts/MT-EV-504-conditional-access-baseline.md",
+      "sha256": "a06fe485cd338db38b3e535f93172705334eabf5a3ad0e974af62cc6e4ba88d5",
+      "evidence_type": "Configuration",
+      "source_owner_role": "Director of IAM",
+      "source_system": "MT-APP-001 Microsoft Entra ID",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-002;MT-TST-502",
+      "size_bytes": 354
+    },
+    {
+      "evidence_id": "MT-EV-505",
+      "file_name": "artifacts/MT-EV-505-jml-sample.csv",
+      "sha256": "7d37e6c63fa408fe53c7f061eaee25a9ffacb94ca45a5944d03eff452008afa9",
+      "evidence_type": "Ticket/export sample",
+      "source_owner_role": "IAM Operations Manager",
+      "source_system": "MT-APP-007 ServiceNow ITSM",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-003;MT-TST-503",
+      "size_bytes": 249
+    },
+    {
+      "evidence_id": "MT-EV-506",
+      "file_name": "artifacts/MT-EV-506-encryption-baseline.md",
+      "sha256": "765b5be1df1943c8829adaa7c18a01b47c1c41dda174b58ec550657da9eb9444",
+      "evidence_type": "Configuration/test output",
+      "source_owner_role": "Cloud Platform Manager",
+      "source_system": "MT-APP-003 Microsoft Azure Platform",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-004;MT-TST-504",
+      "size_bytes": 355
+    },
+    {
+      "evidence_id": "MT-EV-507",
+      "file_name": "artifacts/MT-EV-507-dlp-test-sample.csv",
+      "sha256": "b24f27b9aeef9bef58b7e99a6f9aec2279eb90532ec42b18e5cdcd423884e089",
+      "evidence_type": "DLP report",
+      "source_owner_role": "Security Engineering Lead",
+      "source_system": "Microsoft Purview / endpoint controls (synthetic)",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-005;MT-TST-505",
+      "size_bytes": 310
+    },
+    {
+      "evidence_id": "MT-EV-508",
+      "file_name": "artifacts/MT-EV-508-vulnerability-aging.csv",
+      "sha256": "48053c987e2798238fb6f9291c9c5aa118dd9fee0d9bea0338057346e99179ec",
+      "evidence_type": "Vulnerability report",
+      "source_owner_role": "Vulnerability Operations Lead",
+      "source_system": "MT-APP-016 Qualys VMDR",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-006;MT-TST-506",
+      "size_bytes": 94
+    },
+    {
+      "evidence_id": "MT-EV-509",
+      "file_name": "artifacts/MT-EV-509-critical-log-source-inventory.csv",
+      "sha256": "34bd6e7273be6010bdacc283f3374794f4baf3b92eb987c54d27026bab27c8be",
+      "evidence_type": "System inventory",
+      "source_owner_role": "SIEM Engineering Lead",
+      "source_system": "MT-APP-005 Microsoft Sentinel",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-007;MT-TST-507",
+      "size_bytes": 318
+    },
+    {
+      "evidence_id": "MT-EV-510",
+      "file_name": "artifacts/MT-EV-510-siem-coverage-review.md",
+      "sha256": "281c92e13898a4f7a04a6c44418c546f1c8e18d011cb632d1425a7e0d0b9c4ac",
+      "evidence_type": "Review record",
+      "source_owner_role": "Head of Security Operations",
+      "source_system": "MT-APP-005 Microsoft Sentinel",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-007;MT-TST-507",
+      "size_bytes": 320
+    },
+    {
+      "evidence_id": "MT-EV-511",
+      "file_name": "artifacts/MT-EV-511-resilience-design.md",
+      "sha256": "a5950125bf17f5b59a49ba384cdb7299a4488bca4b0b8f233799839327f4cbe1",
+      "evidence_type": "Architecture record",
+      "source_owner_role": "Director of Cloud & Infrastructure",
+      "source_system": "MT-APP-003 Microsoft Azure Platform",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-008;MT-TST-508",
+      "size_bytes": 218
+    },
+    {
+      "evidence_id": "MT-EV-512",
+      "file_name": "artifacts/MT-EV-512-backup-inventory.csv",
+      "sha256": "54a8f78478d2429648daeb65f58b4a9a5a518daebc86d10bd95d01f372e94678",
+      "evidence_type": "Backup report",
+      "source_owner_role": "Backup & Recovery Lead",
+      "source_system": "MT-APP-015 Azure Backup / Recovery Services",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-009;MT-TST-509",
+      "size_bytes": 345
+    },
+    {
+      "evidence_id": "MT-EV-513",
+      "file_name": "artifacts/MT-EV-513-restore-test-register.md",
+      "sha256": "fb5ed9a0520e410efa11d34918f4bf94c5c3f188340d7b0c1d623587dbe5a8f9",
+      "evidence_type": "Test register",
+      "source_owner_role": "Backup & Recovery Lead",
+      "source_system": "MT-APP-015 Azure Backup / Recovery Services",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-009;MT-TST-509",
+      "size_bytes": 272
+    },
+    {
+      "evidence_id": "MT-EV-514",
+      "file_name": "artifacts/MT-EV-514-control-testing-schedule.csv",
+      "sha256": "10eb0cefa120f99a627bf01ef33f8668adcc4fb47f18d03b7a44b25fbb47f42b",
+      "evidence_type": "Assurance schedule",
+      "source_owner_role": "Cyber GRC Lead",
+      "source_system": "Manual assurance register",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-010;MT-TST-510",
+      "size_bytes": 242
+    },
+    {
+      "evidence_id": "MT-EV-515",
+      "file_name": "artifacts/MT-EV-515-breach-tabletop-timeline.csv",
+      "sha256": "09c20a9257b470279b22dc6e1c285922b37c1541d821bf8f5873dcb7ee1b5333",
+      "evidence_type": "Tabletop timeline",
+      "source_owner_role": "Incident Response Lead / DPO",
+      "source_system": "Tabletop exercise",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-011;MT-TST-511",
+      "size_bytes": 665
+    },
+    {
+      "evidence_id": "MT-EV-516",
+      "file_name": "artifacts/MT-EV-516-breach-decision-log.md",
+      "sha256": "6e507e2662922773ea2f6afafd69839b9f07a0faad2733fabf0bfc443ae4b4a4",
+      "evidence_type": "Decision log",
+      "source_owner_role": "DPO",
+      "source_system": "Tabletop exercise",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-011;MT-TST-511",
+      "size_bytes": 593
+    },
+    {
+      "evidence_id": "MT-EV-517",
+      "file_name": "artifacts/MT-EV-517-processor-due-diligence-register.csv",
+      "sha256": "6d97ddb3439de55f318bb5f9e204e0fe8a4c6797b90b29982c3add63c9ba58ca",
+      "evidence_type": "Third-party register",
+      "source_owner_role": "Supplier Risk Manager",
+      "source_system": "Third-party risk register",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-012;MT-TST-512",
+      "size_bytes": 320
+    },
+    {
+      "evidence_id": "MT-EV-518",
+      "file_name": "artifacts/MT-EV-518-northbridge-contract-security-extract.md",
+      "sha256": "3b63232701305cc85fbf0c3739b1d798d02854557c6e13e16d1fe127b1a012db",
+      "evidence_type": "Contract extract",
+      "source_owner_role": "Supplier Risk Manager / DPO",
+      "source_system": "MT-TP-010 Northbridge CRM Services Ltd",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "GDPR-CTL-012;MT-TST-512",
+      "size_bytes": 521
+    },
+    {
+      "evidence_id": "MT-EV-519",
+      "file_name": "artifacts/MT-EV-519-rights-request-sample.csv",
+      "sha256": "2d96dcb510219b8cf29e6b1c226151f01c25e81b9b2b21e54829ea0d54db3550",
+      "evidence_type": "Case sample",
+      "source_owner_role": "Privacy Operations Manager",
+      "source_system": "MT-APP-019 ServiceNow Privacy Case Management",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "MT-TST-513",
+      "size_bytes": 504
+    },
+    {
+      "evidence_id": "MT-EV-520",
+      "file_name": "artifacts/MT-EV-520-rights-search-checklist.md",
+      "sha256": "94c4116f3f2cbaad60ad79f16091498982614df0deb27b0a0a463767b19702e2",
+      "evidence_type": "Procedure / checklist",
+      "source_owner_role": "Privacy Operations Manager",
+      "source_system": "MT-APP-019 ServiceNow Privacy Case Management",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "MT-TST-513",
+      "size_bytes": 512
+    },
+    {
+      "evidence_id": "MT-EV-521",
+      "file_name": "artifacts/MT-EV-521-restricted-transfer-register.csv",
+      "sha256": "dad459757195ee107390e87ba527f74bd3dc38716c2824179fa7a06d3258b83f",
+      "evidence_type": "Transfer register",
+      "source_owner_role": "DPO / Privacy Legal",
+      "source_system": "Privacy transfer register",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "MT-TST-514",
+      "size_bytes": 446
+    },
+    {
+      "evidence_id": "MT-EV-522",
+      "file_name": "artifacts/MT-EV-522-transfer-risk-assessment-summary.md",
+      "sha256": "8aa289e7f1457accfc0292845729fd949e92e1528ff6a8f005a06a5104c560a1",
+      "evidence_type": "Assessment record",
+      "source_owner_role": "DPO / Privacy Legal",
+      "source_system": "Privacy transfer register",
+      "collection_timestamp": "2026-08-21T16:00:00+01:00",
+      "control_or_test_refs": "MT-TST-514",
+      "size_bytes": 493
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+transfer_id,exporter,recipient_or_support_path,destination,safeguard,tra_data_protection_test_date,extra_measures,result
+TR-001,MT-ENT-002,Microsoft global support access,United States,UK Addendum linked to standard clauses,2026-02-14,Encryption + access logging + support approval,Pass
+TR-002,MT-ENT-002,Northbridge CRM subprocessor support,United States,UK IDTA,2026-03-09,Encryption + pseudonymous support identifiers + approval workflow,Pass
